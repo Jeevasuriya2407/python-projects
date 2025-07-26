@@ -11,7 +11,7 @@ from tools import search_tool,wiki_tool,save_tool
 
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]="//YOUR_API_KEY"
 print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
 
 class ResearchResponse(BaseModel):
